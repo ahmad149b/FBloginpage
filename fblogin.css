@@ -1,0 +1,139 @@
+body{
+    background-color:#f2f4f7;
+}
+.handp{
+
+ float: left;
+ width:50%;
+ height: max-content;
+ text-align: center;
+}
+.handp h2{
+    color: dodgerblue;
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: justify;
+    margin: 0px 0px 0px 0px;
+    padding: 190px 0px 0px 181px;
+}
+.handp p{
+    color: black;
+    font-size: 27px;
+    font-weight: 500;
+    font-family:Helvetica, Arial, sans-serif;
+    text-align: justify;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 150px 181px;
+}
+.login{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    width: max-content;
+    height: max-content;
+    margin: 140px 210px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 2px 2px 2px #9399a1;  
+}
+#email{
+    font-family:Helvetica, Arial, sans-serif;
+    width:358px;
+    height:40px;
+    padding: 0px 0px 0px 0px;
+    margin: 18px 15px 0px 15px;
+    border-radius: 4px;
+    border-width: thin;
+    border-color:gray;     
+}
+input[type="email"]::placeholder{
+    text-indent: 11px;
+    font-size: 17px;
+    
+}
+input[type="email"]:focus{
+    outline: 1px solid dodgerblue;
+}
+#password{
+    width:358px;
+    height:40px;
+    font-family:Helvetica, Arial, sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 12px 15px 0px 15px;
+    border-radius: 4px; 
+    border-width: 1px;
+    border-color:gray; 
+}
+input[type="password"]::placeholder{
+    text-indent: 11px;
+    font-size: 17px;
+}
+input[type="password"]:focus{
+    outline: 1px solid dodgerblue;
+}
+#button{
+    width:max-content;
+    height:max-content ;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:20px ;
+    font-weight:600;
+    padding: 13px 151px 13px 151px;
+    margin: 15px 0px 15px 15px;
+    color: antiquewhite;
+    background-color: dodgerblue;
+    border-radius: 7px;
+    border-style: none;  
+}
+#button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#fpassword{
+    color: dodgerblue;    
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 10px 0px 120px;
+    text-decoration: none;
+}
+#fpassword:hover{
+    text-decoration: underline;
+}
+.login hr{
+    padding: 0px 0px 0px 0px;
+    margin: 30px 10px 15px 10px;
+}
+#createbutton{
+    width:max-content;
+    height:max-content;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 15px 15px 15px;
+    margin: 10px 0px 25px 105px;
+    border-radius: 7px;
+    border-style: none;
+    color: white;
+    background-color: #4CBB17;    
+}
+#createbutton:hover{
+    background-color: #38990b;
+    cursor: pointer;
+}
+.end{
+    
+    float: inline-end;
+    margin: 2px 255px 0px 0px;
+    padding: 0px 0px 0px 0px;    
+    font-family:Helvetica, Arial, sans-serif ;
+    font-size: 14px;
+}
+.end a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.end a:hover{
+    text-decoration: underline;
+}
